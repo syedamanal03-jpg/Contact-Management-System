@@ -110,6 +110,10 @@ namespace Contact_Management_System
         {
             return Head == null;
         }
+        public Contactnode? GetHead()
+        {
+            return Head;
+        }
     }
 
 
